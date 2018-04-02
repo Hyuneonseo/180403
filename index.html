@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{background: #FFFF00}
+			
+			.box {
+				width: 259mm; height: 100%;
+				position:absolute;
+				left: 338.5mm; top: 0px;
+				margin right: 0px: 
+				background-color: black
+			}
+			.black {background-color: black
+					}
+			.ex1 {
+				width: 154mm; height: 152mm;
+				position:absolute;
+				left: 340px; top: 50px;
+
+				animation-name: rint;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+			}
+
+			@keyframes rint {
+				from{
+					left: 0;
+					transform: rotate(0deg);
+				}
+				50%{
+					left: 350px;
+				}
+				to{
+					left: 350px;
+					transform: rotate(360deg);
+				}
+			}
+			.ex2 {
+				width: 154mm; height: 152mm;
+				position:absolute;
+				left: 260px; top: 430px;
+
+				animation-name: rind;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+			}
+
+			@keyframes rind {
+				from{
+					left: 0;
+					transform: rotate(0deg);
+				}
+				50%{
+					left: 280px;
+				}
+				to{
+					left: 270px;
+					transform: rotate(720deg);
+				}
+			}
+			.ex3 {
+				width: 154mm; height: 152mm;
+				position:absolute;
+				left: 380px; top: 205px;
+
+				animation-name: ring;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+			}
+
+			@keyframes ring {
+				from{
+					left: 0;
+					transform: rotate(0deg);
+				}
+				50%{
+					left: 350px;
+				}
+				to{
+					left: 360px;
+					transform: rotate(360deg);
+				}
+			}
+			.ex4 {
+				width: 154mm; height: 152mm;
+				position:absolute;
+				left: 400px; top: 300px;
+
+				animation-name: rina;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+			}
+
+			@keyframes rina {
+				from{
+					left: 0;
+					transform: rotate(0deg);
+				}
+				50%{
+					left: 400px;
+				}
+				to{
+					left: 410px;
+					transform: rotate(720deg);
+				}
+			}
+			.ex6 {
+				width: 1000mm; height: 100%;
+				position:relative;
+				left: 1330px; top: 160px;
+			}
+
+			.ex7 {
+				width: 10mm; height: 100%;
+				position:relative;
+				left: 2130px; top: -575px;
+
+				animation-name: rino;
+				animation-duration: 2s;
+				animation-timing-function: linear;
+			}
+
+			#ex7 {width: 10mm; height: 100%;
+				position:relative;
+				left: 2130px; top: -575px;
+
+				animation-name: rino;
+				animation-duration: 5s;
+				animation-timing-function: linear;
+
+			}
+
+				#ex7:hover{animation: rino}
+
+			@keyframes rino {
+				from{
+					left: 0;
+					transform: perspective(0px);
+				}
+				50%{
+					left: 200px;
+					transform: perspective(150px);
+				}
+				to{
+					left: 410px;
+					transform: perspective(500px);
+				}
+			}
+			p {font-size: 135px; color:yellow; position: absolute; left: 1270px; top: -145px; width: 1000px; height: 200px;}
+			#h1 {font-size: 40px; color:#AFAFAF; position: absolute; left: 2025px; top: 700px; width: 80px transform: rotate(90deg);
+			transition: all 1s; }
+				#h1:hover{transform: rotate(360deg);}
+
+			h2 {font-size: 20px; color:#AFAFAF; position: absolute; left: 2025px; top: 820px; width: 250px}
+
+			.box_1 {
+				width: 259mm; height: 100%;
+				position:absolute;
+				left: 338.5mm; top: 0px;
+				margin right: 0px: 
+				background-color: black
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box black"></div>
+		<div class="ex1">
+			<img src="ex1.png">
+		</div>
+		<div class="ex2">
+			<img src="ex2.png">
+		</div>
+		<div class="ex3">
+			<img src="ex3.png">
+		</div>
+		<div class="ex4">
+			<img src="ex4.png">
+		</div>
+		<div class="ex6">
+			<img src="ex6.png" width="500" >
+		</div>
+		<div id ="ex7">
+			<img src="ex7.png" width="100" >
+		</div>
+		<div>
+			<p><b><i>
+				Sign Language
+			</i></b></p>
+		</div>
+		<div id="h1">
+			Nonmanual <br>Signals
+		</div>
+		<div>
+			<h2>The America Sign Language Hand Shape Dictionary</h2>
+		</div>
+	</body>
+</html>
